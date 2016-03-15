@@ -1,0 +1,77 @@
+C:\Python27\python.exe C:/projects/python/sentiment/otzovik/train.py
+Lexicon scorer
+0.606176266482
+Naive Bayes
+             precision    recall  f1-score   support
+
+        NEG      0.855     0.885     0.870      2582
+        POS      0.875     0.843     0.859      2462
+
+avg / total      0.865     0.865     0.864      5044
+
+Naive Bayes, lexicon vectorizer
+             precision    recall  f1-score   support
+
+        NEG      0.856     0.885     0.870      2582
+        POS      0.875     0.844     0.859      2462
+
+avg / total      0.865     0.865     0.864      5044
+
+Naive Bayes, emoticons extraction
+             precision    recall  f1-score   support
+
+        NEG      0.857     0.884     0.870      2582
+        POS      0.874     0.846     0.860      2462
+
+avg / total      0.865     0.865     0.865      5044
+
+Stochastic Gradient Descent
+             precision    recall  f1-score   support
+
+        NEG      0.869     0.883     0.876      2582
+        POS      0.876     0.860     0.868      2462
+
+avg / total      0.872     0.872     0.872      5044
+
+Stochastic Gradient Descent, emoticons extraction
+             precision    recall  f1-score   support
+
+        NEG      0.871     0.883     0.877      2582
+        POS      0.876     0.863     0.869      2462
+
+avg / total      0.874     0.874     0.873      5044
+
+LogisticRegression
+             precision    recall  f1-score   support
+
+        NEG      0.895     0.880     0.888      2582
+        POS      0.877     0.892     0.884      2462
+
+avg / total      0.886     0.886     0.886      5044
+
+LogisticRegression, emoticons extraction
+             precision    recall  f1-score   support
+
+        NEG      0.897     0.881     0.889      2582
+        POS      0.878     0.894     0.886      2462
+
+avg / total      0.888     0.887     0.887      5044
+
+SVM with linear kernel
+             precision    recall  f1-score   support
+
+        NEG      0.900     0.884     0.892      2582
+        POS      0.881     0.897     0.889      2462
+
+avg / total      0.891     0.891     0.891      5044
+
+SVM with linear kernel, emoticons extraction
+             precision    recall  f1-score   support
+
+        NEG      0.902     0.884     0.893      2582
+        POS      0.881     0.899     0.890      2462
+
+avg / total      0.892     0.891     0.891      5044
+
+
+Process finished with exit code 0

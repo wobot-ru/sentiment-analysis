@@ -1,0 +1,84 @@
+C:\Python27\python.exe C:/projects/python/sentiment/twitter/train_multiple.py
+Naive Bayes
+             precision    recall  f1-score   support
+
+        NEG      0.715     0.862     0.782     18610
+       NEUT      0.801     0.589     0.679     18585
+        POS      0.730     0.773     0.751     18605
+
+avg / total      0.749     0.741     0.737     55800
+
+Naive Bayes, lexicon vectorizer
+             precision    recall  f1-score   support
+
+        NEG      0.787     0.967     0.868     18610
+       NEUT      0.960     0.575     0.719     18585
+        POS      0.792     0.928     0.855     18605
+
+avg / total      0.846     0.823     0.814     55800
+
+Naive Bayes, emoticons extraction
+             precision    recall  f1-score   support
+
+        NEG      0.737     0.874     0.800     18610
+       NEUT      0.858     0.604     0.709     18585
+        POS      0.769     0.854     0.809     18605
+
+avg / total      0.788     0.777     0.773     55800
+
+Stochastic Gradient Descent
+             precision    recall  f1-score   support
+
+        NEG      0.766     0.748     0.757     18610
+       NEUT      0.645     0.765     0.700     18585
+        POS      0.783     0.656     0.714     18605
+
+avg / total      0.732     0.723     0.724     55800
+
+Stochastic Gradient Descent, emoticons extraction
+             precision    recall  f1-score   support
+
+        NEG      0.793     0.749     0.770     18610
+       NEUT      0.709     0.820     0.760     18585
+        POS      0.863     0.777     0.818     18605
+
+avg / total      0.788     0.782     0.783     55800
+
+LogisticRegression
+             precision    recall  f1-score   support
+
+        NEG      0.862     0.871     0.867     18610
+       NEUT      0.791     0.822     0.806     18585
+        POS      0.825     0.784     0.804     18605
+
+avg / total      0.826     0.826     0.826     55800
+
+LogisticRegression, emoticons extraction
+             precision    recall  f1-score   support
+
+        NEG      0.896     0.892     0.894     18610
+       NEUT      0.896     0.894     0.895     18585
+        POS      0.910     0.916     0.913     18605
+
+avg / total      0.901     0.901     0.901     55800
+
+SVM with linear kernel
+             precision    recall  f1-score   support
+
+        NEG      0.855     0.874     0.865     18610
+       NEUT      0.803     0.792     0.798     18585
+        POS      0.803     0.796     0.800     18605
+
+avg / total      0.820     0.821     0.821     55800
+
+SVM with linear kernel, emoticons extraction
+             precision    recall  f1-score   support
+
+        NEG      0.878     0.904     0.891     18610
+       NEUT      0.917     0.855     0.885     18585
+        POS      0.893     0.927     0.910     18605
+
+avg / total      0.896     0.896     0.895     55800
+
+
+Process finished with exit code 0
